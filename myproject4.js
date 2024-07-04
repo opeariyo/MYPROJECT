@@ -1,14 +1,11 @@
-//Print a table containing multiplication tables
+// //Print a table containing multiplication tables
 
-function printMultiplicationTable() {
+// function printMultiplicationTable()
 
-}
 for (let x = 1; x<=12; x++) {
+    console.log("\nMultiplication Table of " + x)
     for (let y = 2; y<=12; y++) {
-        table += (x*y) + '/t'; 
+        console.log(x+ " * " + y + " = " + x*y); 
     }
-    table += '\n';
+    
 }
-        console.log(printMultiplicationTable)
-
-    printMultiplicationTable()
